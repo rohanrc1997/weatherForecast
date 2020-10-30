@@ -29,7 +29,7 @@ wspa.controller('mainController', ['$scope','nameService', function ($scope,name
 
 wspa.controller('weatherController',['$scope','$resource','$log','$routeParams','nameService', function ($scope,$resource,$log,$routeParams,nameService) {
     var dayRange = [];
-    for(var j = 1; j < 6 ; j++){
+    for(var j = 1; j < 11 ; j++){
         dayRange.push(j);
     }
     $scope.dayRange = dayRange;
